@@ -3,1318 +3,435 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$1000 in 7 Days — Complete Marketing Battle Plan</title>
+    <title>$1000 in 7 Days — Marketing Battle Plan</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-        body { font-family: 'Inter', sans-serif; }
-        .gradient-bg { background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); }
-        .card-glow { box-shadow: 0 0 30px rgba(99, 102, 241, 0.1); }
-        .card-glow:hover { box-shadow: 0 0 40px rgba(99, 102, 241, 0.2); transform: translateY(-2px); }
-        .connector-line { position: relative; }
-        .connector-line::after { content: ''; position: absolute; left: 50%; bottom: -30px; width: 2px; height: 30px; background: linear-gradient(to bottom, #6366f1, transparent); }
-        .pulse { animation: pulse 2s infinite; }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-        .fade-in { animation: fadeIn 0.5s ease-in; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        body { font-family: 'Inter', sans-serif; background: #ffffff; }
+        .flow-line { position: relative; }
+        .flow-line::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -32px;
+            transform: translateX(-50%);
+            width: 3px;
+            height: 32px;
+            background: linear-gradient(to bottom, #22c55e, #16a34a);
+            border-radius: 4px;
+        }
+        .arrow-down {
+            width: 0; height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 14px solid #22c55e;
+        }
     </style>
 </head>
-<body class="gradient-bg text-white min-h-screen">
+<body class="bg-white text-gray-900 min-h-screen">
 
 
-    <!-- HERO SECTION -->
-    <section class="relative overflow-hidden py-20 px-6">
-        <div class="absolute inset-0 bg-gradient-to-b from-indigo-900/20 to-transparent"></div>
-        <div class="max-w-6xl mx-auto text-center relative z-10">
-            <div class="inline-block px-4 py-2 bg-indigo-500/20 border border-indigo-500/30 rounded-full text-indigo-300 text-sm font-medium mb-6">
-                🎯 MISSION: $1000 IN 7 DAYS
-            </div>
-            <h1 class="text-5xl md:text-7xl font-black mb-6 bg-gradient-to-r from-white via-indigo-200 to-purple-200 bg-clip-text text-transparent">
-                Complete Marketing<br>Battle Plan
-            </h1>
-            <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-                40 Proven Ideas — All rated 9.8+ — Designed to generate sales from <span class="text-green-400 font-bold">DAY 1</span>
-            </p>
-            <div class="flex flex-wrap justify-center gap-4 mb-12">
-                <div class="bg-white/5 backdrop-blur border border-white/10 rounded-xl px-6 py-4 text-center">
-                    <div class="text-3xl font-bold text-green-400">$19</div>
-                    <div class="text-sm text-gray-400">Per Plugin</div>
-                </div>
-                <div class="bg-white/5 backdrop-blur border border-white/10 rounded-xl px-6 py-4 text-center">
-                    <div class="text-3xl font-bold text-yellow-400">53</div>
-                    <div class="text-sm text-gray-400">Sales Needed</div>
-                </div>
-                <div class="bg-white/5 backdrop-blur border border-white/10 rounded-xl px-6 py-4 text-center">
-                    <div class="text-3xl font-bold text-purple-400">7</div>
-                    <div class="text-sm text-gray-400">Days</div>
-                </div>
-                <div class="bg-white/5 backdrop-blur border border-white/10 rounded-xl px-6 py-4 text-center">
-                    <div class="text-3xl font-bold text-red-400">40</div>
-                    <div class="text-sm text-gray-400">Proven Tactics</div>
-                </div>
-            </div>
-            <!-- Arrow Down -->
-            <div class="text-4xl animate-bounce text-indigo-400">↓</div>
+    <!-- HERO -->
+    <header class="text-center py-16 px-6 border-b-2 border-green-100">
+        <div class="inline-block px-5 py-2 bg-green-50 border border-green-200 rounded-full text-green-700 text-sm font-semibold mb-6">
+            🎯 MISSION: $1000 IN 7 DAYS
         </div>
-    </section>
-
-
-    <!-- TWO PHASES OVERVIEW -->
-    <section class="py-16 px-6">
-        <div class="max-w-6xl mx-auto">
-            <div class="grid md:grid-cols-2 gap-8">
-                <!-- Phase 1 -->
-                <div class="bg-gradient-to-br from-orange-500/10 to-red-500/10 border border-orange-500/30 rounded-2xl p-8 card-glow transition-all duration-300">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-3xl">🎯</span>
-                        <h2 class="text-2xl font-bold text-orange-300">PHASE 1: Creator Outreach</h2>
-                    </div>
-                    <p class="text-gray-300 mb-4">Email YouTubers & Instagram creators <strong>as a subscriber/fan</strong> — not a seller.</p>
-                    <div class="text-sm text-orange-200 bg-orange-500/10 rounded-lg px-4 py-2">
-                        📊 20 Ideas • Expected: 15-40 sales • Rating: 9.8+
-                    </div>
-                </div>
-                <!-- Phase 2 -->
-                <div class="bg-gradient-to-br from-green-500/10 to-emerald-500/10 border border-green-500/30 rounded-2xl p-8 card-glow transition-all duration-300">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="text-3xl">⚡</span>
-                        <h2 class="text-2xl font-bold text-green-300">PHASE 2: Day 1 Sales Tactics</h2>
-                    </div>
-                    <p class="text-gray-300 mb-4">Instant traffic channels — sales from <strong>HOUR 1</strong>. No waiting.</p>
-                    <div class="text-sm text-green-200 bg-green-500/10 rounded-lg px-4 py-2">
-                        📊 20 Ideas • Expected: 31-101 sales • Rating: 9.8+
-                    </div>
-                </div>
+        <h1 class="text-4xl md:text-6xl font-black text-gray-900 mb-4">
+            Complete Marketing<br>Battle Plan
+        </h1>
+        <p class="text-lg text-gray-500 max-w-xl mx-auto mb-10">
+            40 Proven Tactics — Rated 9.8+ — Designed to generate sales from <span class="text-green-600 font-bold">DAY 1</span>
+        </p>
+        <div class="flex flex-wrap justify-center gap-6">
+            <div class="text-center">
+                <div class="text-3xl font-black text-green-600">$19</div>
+                <div class="text-xs text-gray-400 uppercase tracking-wide">Per Plugin</div>
             </div>
-            <!-- Connector Arrow -->
-            <div class="text-center my-8">
-                <div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-6 py-3">
-                    <span class="text-green-400 font-bold">COMBINED</span>
-                    <span class="text-2xl">→</span>
-                    <span class="text-yellow-400 font-bold">46-141 sales = $874 - $2,679</span>
-                </div>
+            <div class="text-center">
+                <div class="text-3xl font-black text-green-600">53</div>
+                <div class="text-xs text-gray-400 uppercase tracking-wide">Sales Needed</div>
+            </div>
+            <div class="text-center">
+                <div class="text-3xl font-black text-green-600">7</div>
+                <div class="text-xs text-gray-400 uppercase tracking-wide">Days</div>
+            </div>
+            <div class="text-center">
+                <div class="text-3xl font-black text-green-600">40</div>
+                <div class="text-xs text-gray-400 uppercase tracking-wide">Proven Tactics</div>
             </div>
         </div>
+        <div class="mt-10 flex justify-center"><div class="arrow-down"></div></div>
+    </header>
+
+
+    <!-- TWO PHASE OVERVIEW -->
+    <section class="max-w-5xl mx-auto py-16 px-6">
+        <div class="grid md:grid-cols-2 gap-8 mb-8">
+            <div class="border-2 border-green-200 rounded-2xl p-8 bg-green-50/50">
+                <div class="text-2xl font-bold text-green-700 mb-2">🎯 PHASE 1</div>
+                <div class="text-lg font-semibold text-gray-800 mb-2">Creator Outreach</div>
+                <p class="text-gray-600 text-sm">Email YouTubers & Insta creators <strong>as a subscriber</strong> — not seller.</p>
+                <div class="mt-4 text-xs text-green-600 font-semibold bg-green-100 inline-block px-3 py-1 rounded-full">20 Ideas • 9.8+ Rating</div>
+            </div>
+            <div class="border-2 border-green-200 rounded-2xl p-8 bg-green-50/50">
+                <div class="text-2xl font-bold text-green-700 mb-2">⚡ PHASE 2</div>
+                <div class="text-lg font-semibold text-gray-800 mb-2">Day 1 Sales Tactics</div>
+                <p class="text-gray-600 text-sm">Instant traffic channels — sales from <strong>HOUR 1</strong>. No waiting.</p>
+                <div class="mt-4 text-xs text-green-600 font-semibold bg-green-100 inline-block px-3 py-1 rounded-full">20 Ideas • 9.8+ Rating</div>
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="inline-flex items-center gap-3 border-2 border-green-300 rounded-full px-6 py-3 bg-green-50">
+                <span class="font-bold text-green-700">COMBINED RESULT</span>
+                <span class="text-green-600 text-xl">→</span>
+                <span class="font-black text-green-800">46-141 sales = $874 - $2,679</span>
+            </div>
+        </div>
+        <div class="mt-8 flex justify-center"><div class="arrow-down"></div></div>
     </section>
 
 
     <!-- PHASE 1 HEADER -->
-    <section class="py-12 px-6">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-black mb-4 bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent">
-                    🎯 PHASE 1: Creator Outreach
-                </h2>
-                <p class="text-gray-400 text-lg">Email as a SUBSCRIBER — Not a Seller</p>
-                <p class="text-sm text-gray-500 mt-2">Universal for ALL 10 plugins • YouTube + Instagram creators</p>
-            </div>
-
-            <!-- Idea 1 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#1</span>
-                        <h3 class="text-xl font-bold text-white">Competitor Video Exists — FOMO Trigger</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Find a competitor's video with 50K+ views on same topic</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Email creator: "[Competitor] got 92K views on this 👀"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Say: "Your version would be 10x better"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> When they reply, casually mention your plugin</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">YouTuber's #1 fear = competitor taking views on THEIR topic. FOMO + Ego + Proven demand = they WILL make the video. You're not pitching — you're giving them a content idea.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">💡 Key: You're a FAN sharing info, NOT a seller requesting promotion</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Idea 2 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#2</span>
-                        <h3 class="text-xl font-bold text-white">I Used Your Tutorial + This Tool = Crazy Results</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Reference their SPECIFIC tutorial video</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Say: "Followed your advice + added [plugin] on top"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Share your RESULT: "Went from X to Y"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Thank them genuinely — "No affiliation btw"</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">You're giving them a "Part 2" sequel to their own content. They can make a follow-up video using your plugin. It becomes THEIR discovery, not your promotion. Zero pressure = high response.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">💡 Key: Combine their expertise + your plugin = new content angle for them</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Idea 3 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#3</span>
-                        <h3 class="text-xl font-bold text-white">Comment Section Discovery DM</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Leave a genuine comment on their video first (prove you're real)</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> DM on Instagram/Twitter: "Left a comment on your latest — really helpful"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Then ask: "Have you tried [plugin]? Getting crazy results with it"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Mention THEIR audience's needs: "Your viewers always ask about this"</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">You're a proven viewer (they can see your comment), you're asking a question (not selling), and you're highlighting what THEIR audience needs. Multi-touchpoint trust building.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">💡 Key: Comment FIRST, DM SECOND = proven fan, not random stranger</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Idea 4 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#4</span>
-                        <h3 class="text-xl font-bold text-white">Before/After Screenshot DM — Zero Ask</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.9</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Take REAL before/after screenshot of your result</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> DM creator on Instagram: "Been following you 🔥"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Attach screenshot: "This happened after using [plugin]"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> NO ASK. NO LINK. Let them come to you.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">Visual proof + zero pressure = pure curiosity. They'll reply "What plugin is this?" and NOW you tell them. They asked YOU — power dynamic flipped. 80%+ response when you DON'T sell.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">💡 Key: Send screenshot WITHOUT naming the plugin. Let THEM ask.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Idea 5 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#5</span>
-                        <h3 class="text-xl font-bold text-white">Your Audience is ASKING For This</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Go to their video comments section</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Find 5-10 people asking about [problem your plugin solves]</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Email: "Noticed 8 people asking about [X] in your comments"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> "I use [plugin] for this — might be a good video idea"</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">You did THEIR audience research for them. You showed DEMAND exists from their own viewers. They see it as a guaranteed-views topic. You're not selling — you're showing them an opportunity.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">💡 Key: Screenshot the comments asking about this topic — send as proof</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Ideas 6-10 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#6</span>
-                        <h3 class="text-xl font-bold text-white">Grateful User Story — Instagram Story Reply</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Wait for creator to post IG story about WordPress/SEO/blogging</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Reply: "Your content got me started. Using [plugin] now — [result]!"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Position yourself as their SUCCESS STORY</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> They'll want to feature you or the tool</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">Story replies feel intimate & personal. They see you as proof their content WORKS. Creators LOVE featuring success stories — it validates their teaching. Plugin mention feels natural.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#7</span>
-                        <h3 class="text-xl font-bold text-white">Twitter Thread Tag — Give THEM Credit</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Write thread: "How I achieved [X] using [method] 🧵"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Mention plugin naturally in steps</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> End with: "Shoutout @Creator whose tutorial got me started"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> They retweet = THEIR audience sees your plugin</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">You're giving THEM credit publicly. Ego boost = guaranteed retweet. Their audience (thousands) sees your thread + plugin. Free exposure without asking for anything.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#8</span>
-                        <h3 class="text-xl font-bold text-white">Testimonial Offer — Free Case Study</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Email: "Got results using [your method] + [plugin]"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Offer: "Happy to share my data as a case study for your video"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Include: before/after screenshots, GSC data</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> "No strings — just cool to be featured 😄"</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">You're offering them READY-MADE content. They get a case study without doing research. You did the work FOR them. They just film and present your data. Easiest video ever for them.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#9</span>
-                        <h3 class="text-xl font-bold text-white">Poll/Question Engagement — Start Discussion</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Create Twitter/IG poll: "Which do you prefer? A ($99/yr) vs B ($19 one-time)"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Tag 3-5 creators: "Curious what you use? @creator1 @creator2"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> They vote + comment + potentially share</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Creates organic conversation around your plugin</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">Polls are engaging — people love voting. Creators love participating in tool discussions. It's NOT a pitch, it's a conversation. Plugin gets discovered through community interaction naturally.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#10</span>
-                        <h3 class="text-xl font-bold text-white">Broken Link Helper — Goodwill First</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Find video where description link is broken/outdated</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Email: "Quick heads up — link in your [video] seems broken"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Then: "BTW I use [plugin] for same purpose — $19 alternative"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Help first, suggest second</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">You're HELPING them fix content first = instant goodwill. Now any suggestion you make carries trust. They feel grateful + they check your alternative. Reciprocity principle at play.</p>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Ideas 11-15 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#11</span>
-                        <h3 class="text-xl font-bold text-white">Group Discussion Starter</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> In FB/Slack/Discord groups where creators hang out</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Start discussion: "What do you all use for [problem]?"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> "I've been testing [plugin] — getting [result]. Anyone else?"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Creators in group notice = potential video</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">Community discussion = social proof + discovery. Not YOUR promotion — it's a GROUP conversation. Creators see buzz, want to cover trending tools their peers discuss.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#12</span>
-                        <h3 class="text-xl font-bold text-white">Reply Guy Strategy — Be Everywhere</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Follow 30-50 target creators on Twitter</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Reply helpfully when they tweet about related topics</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Naturally mention plugin in replies: "I fixed this with [plugin]"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Do 3-5x over 2 weeks — they'll recognize your name</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">Familiarity breeds trust. After seeing your name 5x, you're not a stranger anymore. When you eventually DM, they already "know" you. Response rate: 80%+. Patient but LETHAL.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#13</span>
-                        <h3 class="text-xl font-bold text-white">Audit Their Own Website — Make It Personal</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.9</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Visit creator's website — find the problem your plugin fixes</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Email: "Noticed [problem] on your site — not trying to be annoying"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> "I fixed this on my site with [plugin] — took 4 minutes"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Now THEY need it personally = they'll try it = video</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">When the problem is on THEIR site, it's PERSONAL. They'll fix it using your plugin → then realize "this is great content" → video follows naturally. They become a genuine user first.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#14</span>
-                        <h3 class="text-xl font-bold text-white">Duet/Stitch Reaction Video</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Find creator's video about the problem your plugin solves</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Stitch/Duet: "This takes 30 min. Here's how I do it in 30 sec..."</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Show your plugin working live</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Tag original creator — they might reshare</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">You're adding to THEIR content, not competing. Collaboration energy. Original creator's audience sees your version too. If they reshare = massive exposure without asking.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#15</span>
-                        <h3 class="text-xl font-bold text-white">Affiliate Seed — Show THEM the Money</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Email: "[Plugin] has 40% affiliate commission ($7.6/sale)"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> "I'm not from the company — just a user who loves it"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> "Your audience + this plugin = easy affiliate income for you"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Show math: "10K views → 50 sales → $380 earned"</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">You're showing them a MONEY opportunity — not asking them to help you. "Here's how YOU can earn" vs "please promote ME." Completely different psychology. Financial incentive = action.</p>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Ideas 16-20 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#16</span>
-                        <h3 class="text-xl font-bold text-white">Quote Retweet Praise</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Quote retweet creator's post with genuine praise</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Add: "Followed this advice + [plugin] = went from X to Y"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Ego boost = they'll notice you, might retweet back</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> THEIR audience sees your quote = plugin exposure</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">Public praise = ego boost + validation for them. They retweet because it shows their advice works. Your plugin gets seen by their entire audience organically.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#17</span>
-                        <h3 class="text-xl font-bold text-white">Bundle Video Suggestion — "Ultimate Stack"</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Suggest: "Video idea — Ultimate WP Stack Under $100"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Include popular tools + YOUR plugin as one item in list</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Not a solo pitch — you're one of many recommendations</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> "Best tools under $100" = proven high-performing video topic</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">You're giving them a FULL video concept. Your plugin is just one item in a helpful list. Way more likely to be accepted than a solo product pitch. Feels like content curation, not promotion.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#18</span>
-                        <h3 class="text-xl font-bold text-white">Speed Challenge Format</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> DM: "Challenge — can you [achieve X] in under 5 minutes?"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> "I did it in 4 min 23 sec with [plugin]. Bet you can beat me"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Offer free license to try</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> "Would make a sick speed challenge video 🔥"</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">"Challenge" = trending content format. Easy to film, entertaining to watch. Creates excitement + competitive energy. Creators LOVE challenges because they perform well on algorithm.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#19</span>
-                        <h3 class="text-xl font-bold text-white">Comparison Request — As Subscriber</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Email: "Would love your honest opinion on [plugin]"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> "How does it compare to [competitor] in your experience?"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> "I trust your reviews more than anyone in this space"</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">→</span> Position them as EXPERT being consulted</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">Flattery + consulting their expertise + suggesting content idea. They feel like the authority being asked for opinion. Natural progression = they test it = review video follows.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-orange-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-orange-500 text-white text-sm font-bold px-3 py-1 rounded-full">#20</span>
-                        <h3 class="text-xl font-bold text-white">Multi-Touch Warm-Up Sequence (2 Weeks)</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.9</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-orange-300 uppercase tracking-wide mb-2">📋 14-Day Sequence</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">Day 1</span> Leave thoughtful YouTube comment</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">Day 3</span> Like + reply to their tweet</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">Day 5</span> Reply to Instagram story</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">Day 7</span> Quote retweet with result</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">Day 9</span> Comment on another video</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">Day 11</span> NOW DM — they recognize you</li>
-                            <li class="flex items-start gap-2"><span class="text-orange-400 mt-1">Day 14</span> Follow up with screenshot</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why It Works</h4>
-                        <p class="text-gray-400 text-sm">By Day 11, you're NOT a stranger. You're a regular. When you mention the plugin, it feels like a friend's recommendation. This is the ULTIMATE approach for high-value creators.</p>
-                        <div class="mt-3 bg-purple-500/10 border border-purple-500/20 rounded-lg px-3 py-2">
-                            <span class="text-purple-300 text-xs font-medium">🏆 HIGHEST SUCCESS RATE: 80-90% response guaranteed</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+    <section class="max-w-5xl mx-auto px-6 pb-4">
+        <div class="border-l-4 border-green-500 pl-6 mb-12">
+            <h2 class="text-3xl font-black text-gray-900">PHASE 1: Creator Outreach</h2>
+            <p class="text-gray-500 mt-1">Email as a SUBSCRIBER — Not a Seller • YouTube + Instagram</p>
         </div>
-    </section>
 
-
-    <!-- PHASE 2 HEADER -->
-    <section class="py-12 px-6">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-black mb-4 bg-gradient-to-r from-green-300 to-emerald-300 bg-clip-text text-transparent">
-                    ⚡ PHASE 2: Day 1 Sales Tactics
-                </h2>
-                <p class="text-gray-400 text-lg">Instant Traffic → Instant Sales — No Waiting</p>
-                <p class="text-sm text-gray-500 mt-2">Execute these on Day 1 — sales start within HOURS</p>
-            </div>
-
-            <!-- Day 1 Ideas 1-5 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
+        <!-- IDEA 1 -->
+        <div class="mb-6 flow-line">
+            <div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <div class="flex items-center justify-between mb-4">
                     <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#1</span>
-                        <h3 class="text-xl font-bold text-white">Reddit Launch Post — Proven Day 1 Sales</h3>
+                        <span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">1</span>
+                        <h3 class="text-lg font-bold text-gray-900">Competitor Video Exists — FOMO Trigger</h3>
                     </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.9</span>
+                    <span class="text-green-600 text-sm font-bold">⭐ 9.8</span>
                 </div>
                 <div class="grid md:grid-cols-2 gap-6">
                     <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Post in: r/SideProject, r/WordPress, r/webdev, r/Entrepreneur</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Title: "I built a $19 plugin that does [X] — feedback welcome"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Story: Problem → Why you built it → Quick demo GIF</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Ask for feedback (not sales) — sales come naturally</li>
+                        <div class="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">📋 KYA KARNA HAI</div>
+                        <ul class="text-gray-600 text-sm space-y-1.5">
+                            <li>→ Find competitor's video with 50K+ views on same topic</li>
+                            <li>→ Email: "[Competitor] got 92K views on this 👀"</li>
+                            <li>→ Say: "Your version would be 10x better"</li>
+                            <li>→ When they reply, casually mention your plugin</li>
                         </ul>
                     </div>
                     <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">One Reddit post generated 12 paid downloads on LAUNCH DAY. Excel Formula Bot got 750K users from Reddit. These subs have 1M+ members actively looking for tools. Instant eyeballs = instant sales.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">⚡ Expected: 3-15 sales from ONE post</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#2</span>
-                        <h3 class="text-xl font-bold text-white">Facebook Groups — Value Drop, Sales in Hours</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Join 10 active WordPress/SEO/Blogging groups (10K-100K members)</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Post: "Quick tip working insane for me: [result] using [plugin]"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Share actual result + cost ($19 one-time)</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Offer to share steps in comments (engagement boost)</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">Active FB groups = instant visibility to THOUSANDS of people who care about WordPress. Comments start within minutes. Value-first approach = not seen as spam. Sales within HOURS of posting.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">⚡ Expected: 2-8 sales per group post</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#3</span>
-                        <h3 class="text-xl font-bold text-white">Cold DM to People Complaining — RIGHT NOW</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Twitter search: "[competitor] sucks", "[competitor] expensive"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Find people complaining TODAY</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Reply: "I switched to [plugin] — $19, no subscription. Working great."</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> They're MID-PAIN = your solution = instant relief</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">These people are ACTIVELY frustrated RIGHT NOW. They don't need convincing — they need an alternative. You ARE the alternative. One reply = one potential sale within minutes.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">⚡ Expected: 1-3 sales per 20 replies</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#4</span>
-                        <h3 class="text-xl font-bold text-white">Hacker News — Show HN Post</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Post: "Show HN: [Plugin] — [One-line value prop]"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> HN audience = developers + indie hackers who BUY tools</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> If hits front page = 5K-50K views in hours</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Respond to every comment (engagement = more upvotes)</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">HN front page = THOUSANDS of visitors in HOURS. Tech-savvy audience who understand plugin value. They BUY tools regularly. One successful HN post = can fund your entire $1000 goal alone.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">⚡ Expected: 5-50 sales if hits front page</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#5</span>
-                        <h3 class="text-xl font-bold text-white">Product Hunt Launch — Same Day Traffic</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Submit at 12:01 AM PST for maximum visibility window</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Get 10-15 friends to upvote in first 2 hours</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Reply to every comment (boosts ranking)</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> If #5+ daily = 2K-10K visitors same day</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">Product Hunt audience = BUYERS of digital tools. They're there to DISCOVER and BUY. $19 one-time = impulse buy for this audience. Instant traffic, instant sales within hours of launch.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">⚡ Expected: 10-40 sales on launch day</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Day 1 Ideas 6-10 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#6</span>
-                        <h3 class="text-xl font-bold text-white">WhatsApp Status + Broadcast — FASTEST Method</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.9</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> WhatsApp Status: Before/after screenshot + "$19. DM if interested"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Broadcast to ALL 500+ contacts</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> "Just launched! Know anyone with a WordPress site? Share?"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> 500 contacts × 2% = 10 sales from Day 1, Hour 1</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">LITERALLY the fastest possible method. 5 min effort. Your existing network sees it immediately. Warm audience = highest conversion. Sales within MINUTES of sending.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">⚡ Expected: 5-15 sales within hours. ZERO wait time.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#7</span>
-                        <h3 class="text-xl font-bold text-white">LinkedIn Story Post — Professional Audience</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Post story format: "I saved $476 over 5 years by replacing ONE plugin"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Share: Before (competitor cost) → After (your plugin cost)</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Include results: traffic/impressions growth</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> End with link. Even 500 connections = 1K-5K impressions</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">LinkedIn post reach = 1K-50K impressions (even with 500 connections). Story format = high engagement. Professionals who need WP tools = BUYERS with spending power.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">⚡ Expected: 2-8 sales from one post</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#8</span>
-                        <h3 class="text-xl font-bold text-white">Twitter/X Savings Thread — All 10 Plugins</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.9</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Thread: "I save $1,247/yr on WordPress tools. Here's my exact stack 🧵"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Each tweet = 1 plugin with competitor comparison</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> All 10 plugins in ONE thread = 10 sale opportunities per reader</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Money-saving content = VIRAL potential</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">"Save money" threads go VIRAL on Twitter. Everyone bookmarks + shares these. ONE thread promotes ALL 10 plugins simultaneously. One reader might buy 2-3 plugins at once. Compound effect.</p>
-                        <div class="mt-3 bg-purple-500/10 border border-purple-500/20 rounded-lg px-3 py-2">
-                            <span class="text-purple-300 text-xs font-medium">🏆 BEST ROI: One piece of content, ALL 10 products promoted</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#9</span>
-                        <h3 class="text-xl font-bold text-white">Reply to "What Plugin?" Tweets — Sniper Mode</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Search: "what WordPress plugin", "recommend a plugin", "best plugin for"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Reply INSTANTLY with genuine recommendation</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> "I use [plugin] — $19, no subscription. Working great."</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> They're ASKING = buying mode = your reply = their purchase</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">These people are literally ASKING for recommendations RIGHT NOW. They're in buying mode. Your reply = their answer = their purchase. Sales within MINUTES of replying.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">⚡ Expected: 1-2 sales per 10 genuine replies</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#10</span>
-                        <h3 class="text-xl font-bold text-white">Deal Sites — Instant Buyer Traffic</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Submit to: AppSumo, DealFuel, SaaSMantra, StackSocial, Dealify</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> These have 100K-1M+ impulse buyers on their lists</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> They send emails + push notifications to THEIR audience</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> You just submit — THEY do the marketing</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">Deal platforms have READY audiences who BUY $19-49 tools daily. Once listed, their email blasts promote you. 100-500 sales in first week possible. Someone else's audience = your revenue.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">⚡ Expected: 50-200 sales per platform launch</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Day 1 Ideas 11-15 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#11</span>
-                        <h3 class="text-xl font-bold text-white">IndieHackers Launch Post</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Post: "Launched 10 WP plugins — Trying to make $1000 in 7 days"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Share your story, strategy, and pricing</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> IH community = supportive + they BUY from fellow builders</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Journey posts get massive engagement</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">IndieHackers community loves supporting fellow builders. "$1000 in 7 days challenge" = engaging narrative they follow. Proven — multiple founders got first sales from IH day of posting.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#12</span>
-                        <h3 class="text-xl font-bold text-white">Telegram/Discord Deal Channels</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Join: "WordPress Deals", "Lifetime SaaS Deals", "WP Plugin Deals"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Post: "$19 one-time — [Plugin] — lifetime license"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> These groups EXIST for buying deals</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Members are there TO BUY = post = sales in hours</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">Deal channels = people with credit cards READY to buy. They joined specifically to find deals like yours. $19 lifetime = exactly what they're looking for. Post = immediate sales.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#13</span>
-                        <h3 class="text-xl font-bold text-white">Upwork/Fiverr — Sell Service + Give Plugin</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Fiverr gig: "I will translate your WordPress site into 5 languages — $50"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Use YOUR plugin to do it in 5 minutes</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Deliver + tell: "BTW the plugin is $19 if you want to DIY in future"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Double income: Service fee + plugin sale + referrals</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">Fiverr/Upwork = people looking for THIS service RIGHT NOW. You get paid $50 for 5 min work using your plugin. Then sell the plugin too. Then they refer others. Triple revenue stream from Day 1.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">⚡ Expected: $50-150/day from service + plugin sales from referrals</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#14</span>
-                        <h3 class="text-xl font-bold text-white">YouTube Community Tab Comments</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Go to WP YouTubers' community tab posts</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> When they ask "what tools?" or "plugin recommendations?"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Comment genuinely: "Been using [plugin] — $19, no sub. Impressed."</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Visible to thousands of their subscribers</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">Community tab = active engaged audience asking for recommendations. Your comment = visible to thousands. People click profiles → find your stuff. Immediate traffic without creating content.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#15</span>
-                        <h3 class="text-xl font-bold text-white">Email Warm List — First 5-10 Sales GUARANTEED</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.9</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Email EVERYONE you know with a website/blog</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> "Hey! Launched a plugin — $19. Thought of you since you have [site]"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Personal, genuine, non-spammy</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Warm leads = 5-10x better conversion than cold</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">Your FIRST sales will ALWAYS come from people who know you. They trust you already. They'll buy to support you + because it's genuinely useful. Hour 1, Day 1. Guaranteed.</p>
-                        <div class="mt-3 bg-purple-500/10 border border-purple-500/20 rounded-lg px-3 py-2">
-                            <span class="text-purple-300 text-xs font-medium">🏆 FASTEST SALES: Your first $50-100 comes from here</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Day 1 Ideas 16-20 -->
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#16</span>
-                        <h3 class="text-xl font-bold text-white">Micro-Launch with Scarcity — "First 20 Only"</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.9</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Tweet: "🚀 LAUNCH: [Plugin] — $19 (normally $39)"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> "First 20 buyers get launch price. After = $39 permanently"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Scarcity + urgency = people buy NOW not later</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> "RT if you know someone who needs this 🙏"</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">Scarcity ("first 20") + urgency ("price increases") + social sharing ("RT") = IMMEDIATE action. People don't "think about it later" — they buy NOW because they'll lose the deal. FOMO is real.</p>
-                        <div class="mt-3 bg-green-500/10 border border-green-500/20 rounded-lg px-3 py-2">
-                            <span class="text-green-300 text-xs font-medium">⚡ Creates buying URGENCY. "Later" doesn't exist.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#17</span>
-                        <h3 class="text-xl font-bold text-white">Short-Form Video — 30 Sec Demo</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Record 30-sec screen: Problem (3s) → Plugin fixing it (20s) → Result (7s)</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Hook: "You're losing $X/month. Here's the $19 fix."</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Post SAME video: TikTok + Reels + YouTube Shorts</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Algorithm decides reach — 0 followers OK</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">Short-form algorithms push content to strangers regardless of follower count. One video can hit 10K-100K views. "Visual demo" = instant understanding of value. Video drives 3x more conversions than text.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#18</span>
-                        <h3 class="text-xl font-bold text-white">CodeCanyon Marketplace Listing</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> List plugins on CodeCanyon (7M+ members)</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Price: $19-29 — competitive in their marketplace</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> They handle traffic — millions browse for WP plugins</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Once approved = passive sales from THEIR audience</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">CodeCanyon = EXISTING marketplace with millions of WordPress buyers actively searching. Like listing on Amazon. Their audience = your revenue. Top sellers make $100K+/year passively.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#19</span>
-                        <h3 class="text-xl font-bold text-white">Gumroad + Whop — Marketplace Discovery</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.8</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> List all plugins on Gumroad + Whop with proper descriptions</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Add demo video + screenshots + comparison table</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Create "10 Plugin Bundle — $49" mega deal</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Gumroad Discover shows products to relevant buyers after first sale</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">Marketplaces = built-in discovery. People browse for tools. Bundle at $49 (worth $190) = irresistible value proposition. Impulse buyers find you organically through platform algorithms.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mb-8 bg-white/5 backdrop-blur border border-green-500/20 rounded-2xl p-8 card-glow transition-all duration-300">
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">#20</span>
-                        <h3 class="text-xl font-bold text-white">48-Hour Flash Sale EVERYWHERE — Urgency Bomb</h3>
-                    </div>
-                    <span class="bg-yellow-500/20 text-yellow-300 text-sm font-bold px-3 py-1 rounded-full">⭐ 9.9</span>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">📋 Kya Karna Hai</h4>
-                        <ul class="text-gray-300 text-sm space-y-2">
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Create time-limited bundle: "All 10 Plugins — $49 (worth $190)"</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Countdown timer on landing page</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> Post EVERYWHERE simultaneously: All platforms at once</li>
-                            <li class="flex items-start gap-2"><span class="text-green-400 mt-1">→</span> After 48 hours = price to $99. FOMO = instant action</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-sm font-semibold text-green-300 uppercase tracking-wide mb-2">🧠 Why Day 1 Sales</h4>
-                        <p class="text-gray-400 text-sm">URGENCY = #1 Day 1 sale driver. When people know price WILL increase, they buy NOW. Combined with posting in 10+ places simultaneously = FLOOD of traffic + FOMO. This alone can hit $1000.</p>
-                        <div class="mt-3 bg-red-500/10 border border-red-500/20 rounded-lg px-3 py-2">
-                            <span class="text-red-300 text-xs font-medium">🔥 NUCLEAR OPTION: This single tactic can generate $500-2000 in 48 hours</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
-    <!-- EXECUTION TIMELINE -->
-    <section class="py-16 px-6">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-black mb-4 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">
-                    📅 7-Day Execution Timeline
-                </h2>
-                <p class="text-gray-400 text-lg">Hour-by-hour plan for Day 1 + daily plan for Day 2-7</p>
-            </div>
-
-            <div class="bg-white/5 backdrop-blur border border-cyan-500/20 rounded-2xl p-8">
-                <h3 class="text-2xl font-bold text-cyan-300 mb-6">🔥 DAY 1 — Launch Day (Hour by Hour)</h3>
-                <div class="space-y-4">
-                    <div class="flex items-center gap-4 bg-cyan-500/5 rounded-xl p-4 border border-cyan-500/10">
-                        <span class="bg-cyan-500 text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">Hour 0-1</span>
-                        <span class="text-gray-300">WhatsApp broadcast to 500+ contacts</span>
-                        <span class="ml-auto text-green-400 text-sm font-medium">→ 3-8 sales</span>
-                    </div>
-                    <div class="flex items-center gap-4 bg-cyan-500/5 rounded-xl p-4 border border-cyan-500/10">
-                        <span class="bg-cyan-500 text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">Hour 1-2</span>
-                        <span class="text-gray-300">Email warm list (50-100 people)</span>
-                        <span class="ml-auto text-green-400 text-sm font-medium">→ 2-5 sales</span>
-                    </div>
-                    <div class="flex items-center gap-4 bg-cyan-500/5 rounded-xl p-4 border border-cyan-500/10">
-                        <span class="bg-cyan-500 text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">Hour 2-3</span>
-                        <span class="text-gray-300">LinkedIn story post + Twitter savings thread</span>
-                        <span class="ml-auto text-green-400 text-sm font-medium">→ 3-8 sales</span>
-                    </div>
-                    <div class="flex items-center gap-4 bg-cyan-500/5 rounded-xl p-4 border border-cyan-500/10">
-                        <span class="bg-cyan-500 text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">Hour 3-5</span>
-                        <span class="text-gray-300">Reddit posts (r/SideProject + r/WordPress)</span>
-                        <span class="ml-auto text-green-400 text-sm font-medium">→ 3-15 sales</span>
-                    </div>
-                    <div class="flex items-center gap-4 bg-cyan-500/5 rounded-xl p-4 border border-cyan-500/10">
-                        <span class="bg-cyan-500 text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap">Hour 5-8</span>
-                        <span class="text-gray-300">Facebook groups (5 groups) + Hacker News</span>
-                        <span class="ml-auto text-green-400 text-sm font-medium">→ 5-25 sales</span>
-                    </div>
-                    <div class="mt-6 bg-green-500/10 border border-green-500/30 rounded-xl p-4 text-center">
-                        <span class="text-green-300 font-bold text-lg">DAY 1 TOTAL: 16-61 sales = $304 - $1,159</span>
-                    </div>
-                </div>
-
-                <h3 class="text-2xl font-bold text-cyan-300 mb-6 mt-12">📈 DAY 2-7 Plan</h3>
-                <div class="grid md:grid-cols-2 gap-4">
-                    <div class="bg-cyan-500/5 rounded-xl p-4 border border-cyan-500/10">
-                        <span class="text-cyan-300 font-bold">Day 2:</span>
-                        <span class="text-gray-300"> Product Hunt + IndieHackers launch</span>
-                    </div>
-                    <div class="bg-cyan-500/5 rounded-xl p-4 border border-cyan-500/10">
-                        <span class="text-cyan-300 font-bold">Day 3:</span>
-                        <span class="text-gray-300"> Deal sites submit + Telegram/Discord</span>
-                    </div>
-                    <div class="bg-cyan-500/5 rounded-xl p-4 border border-cyan-500/10">
-                        <span class="text-cyan-300 font-bold">Day 4:</span>
-                        <span class="text-gray-300"> Creator outreach begins (Phase 1 ideas)</span>
-                    </div>
-                    <div class="bg-cyan-500/5 rounded-xl p-4 border border-cyan-500/10">
-                        <span class="text-cyan-300 font-bold">Day 5:</span>
-                        <span class="text-gray-300"> Short-form video + 48hr flash sale</span>
-                    </div>
-                    <div class="bg-cyan-500/5 rounded-xl p-4 border border-cyan-500/10">
-                        <span class="text-cyan-300 font-bold">Day 6:</span>
-                        <span class="text-gray-300"> Follow-up all leads + more creator outreach</span>
-                    </div>
-                    <div class="bg-cyan-500/5 rounded-xl p-4 border border-cyan-500/10">
-                        <span class="text-cyan-300 font-bold">Day 7:</span>
-                        <span class="text-gray-300"> FINAL PUSH — urgency posts + close deals</span>
+                        <div class="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">🧠 WHY IT WORKS</div>
+                        <p class="text-gray-500 text-sm">YouTuber's #1 fear = competitor taking views. FOMO + Ego + Proven demand = video guaranteed. You're giving content idea, NOT pitching.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
 
-    <!-- FINAL CTA -->
-    <section class="py-20 px-6">
-        <div class="max-w-4xl mx-auto text-center">
-            <div class="bg-gradient-to-br from-indigo-500/10 to-purple-500/10 border border-indigo-500/30 rounded-3xl p-12">
-                <h2 class="text-3xl md:text-4xl font-black mb-6 text-white">
-                    🎯 Mission: $1000 in 7 Days
-                </h2>
-                <p class="text-xl text-gray-300 mb-8">40 Proven Tactics. 10 Plugins. One Goal.</p>
-                <div class="grid grid-cols-3 gap-4 mb-8">
-                    <div class="bg-white/5 rounded-xl p-4">
-                        <div class="text-2xl font-bold text-green-400">$19</div>
-                        <div class="text-xs text-gray-400">Per Plugin</div>
+        <!-- IDEA 2 -->
+        <div class="mb-6 flow-line">
+            <div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-3">
+                        <span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">2</span>
+                        <h3 class="text-lg font-bold text-gray-900">I Used Your Tutorial + This Tool = Crazy Results</h3>
                     </div>
-                    <div class="bg-white/5 rounded-xl p-4">
-                        <div class="text-2xl font-bold text-yellow-400">53</div>
-                        <div class="text-xs text-gray-400">Sales Needed</div>
-                    </div>
-                    <div class="bg-white/5 rounded-xl p-4">
-                        <div class="text-2xl font-bold text-purple-400">40</div>
-                        <div class="text-xs text-gray-400">Tactics Available</div>
-                    </div>
+                    <span class="text-green-600 text-sm font-bold">⭐ 9.8</span>
                 </div>
-                <p class="text-lg text-indigo-300 font-medium">
-                    Execute 10 tactics seriously → 53+ sales = <span class="text-green-400 font-bold">$1000+ ACHIEVED</span> ✅
-                </p>
-                <div class="mt-8 text-sm text-gray-500">
-                    Built with 🔥 by DevsArun — May 2026
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <div class="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">📋 KYA KARNA HAI</div>
+                        <ul class="text-gray-600 text-sm space-y-1.5">
+                            <li>→ Reference their SPECIFIC tutorial video</li>
+                            <li>→ "Followed your advice + added [plugin] on top"</li>
+                            <li>→ Share RESULT: "Went from X to Y"</li>
+                            <li>→ "No affiliation btw — just sharing what worked"</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">🧠 WHY IT WORKS</div>
+                        <p class="text-gray-500 text-sm">You're giving them a "Part 2" to their own content. It becomes THEIR discovery. Zero pressure = high response rate.</p>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+
+        <!-- IDEA 3 -->
+        <div class="mb-6 flow-line">
+            <div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-3">
+                        <span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">3</span>
+                        <h3 class="text-lg font-bold text-gray-900">Comment Section Discovery DM</h3>
+                    </div>
+                    <span class="text-green-600 text-sm font-bold">⭐ 9.8</span>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <div class="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">📋 KYA KARNA HAI</div>
+                        <ul class="text-gray-600 text-sm space-y-1.5">
+                            <li>→ Leave genuine comment on their video (prove you're real)</li>
+                            <li>→ DM: "Left a comment on your latest — really helpful"</li>
+                            <li>→ "Have you tried [plugin]? Getting crazy results"</li>
+                            <li>→ Mention THEIR audience needs it</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">🧠 WHY IT WORKS</div>
+                        <p class="text-gray-500 text-sm">Comment first = proven fan. DM second = trust built. Multi-touchpoint. Not a stranger — a verified viewer asking genuine question.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <!-- IDEA 4 -->
+        <div class="mb-6 flow-line">
+            <div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-3">
+                        <span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">4</span>
+                        <h3 class="text-lg font-bold text-gray-900">Before/After Screenshot DM — Zero Ask</h3>
+                    </div>
+                    <span class="text-green-600 text-sm font-bold">⭐ 9.9</span>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <div class="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">📋 KYA KARNA HAI</div>
+                        <ul class="text-gray-600 text-sm space-y-1.5">
+                            <li>→ Take REAL before/after screenshot of your result</li>
+                            <li>→ DM: "Been following you 🔥 [screenshot attached]"</li>
+                            <li>→ "This happened after using [plugin]"</li>
+                            <li>→ NO ASK. NO LINK. Let THEM ask you.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">🧠 WHY IT WORKS</div>
+                        <p class="text-gray-500 text-sm">Visual proof + zero pressure = pure curiosity. They'll reply "What plugin?" — power dynamic FLIPPED. They came to YOU. 80%+ response.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <!-- IDEA 5 -->
+        <div class="mb-6 flow-line">
+            <div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-3">
+                        <span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">5</span>
+                        <h3 class="text-lg font-bold text-gray-900">Your Audience is ASKING For This</h3>
+                    </div>
+                    <span class="text-green-600 text-sm font-bold">⭐ 9.8</span>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <div class="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">📋 KYA KARNA HAI</div>
+                        <ul class="text-gray-600 text-sm space-y-1.5">
+                            <li>→ Go to their comments — find people asking about [problem]</li>
+                            <li>→ Email: "8 people asked about [X] in your comments"</li>
+                            <li>→ "I use [plugin] for this — might be good video idea"</li>
+                            <li>→ Screenshot the comments as proof of demand</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">🧠 WHY IT WORKS</div>
+                        <p class="text-gray-500 text-sm">You did THEIR audience research. Showed DEMAND from their own viewers. Guaranteed-views topic. Not selling — showing opportunity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+
+        <!-- IDEAS 6-10 (Compact) -->
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">6</span><h3 class="text-lg font-bold">Grateful User — Instagram Story Reply</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Reply to their IG story with genuine praise + your result</li><li>→ "Your content got me started. Using [plugin] now — [result]!"</li><li>→ Position yourself as their SUCCESS STORY</li></ul></div><div><p class="text-gray-500 text-sm">Story replies feel intimate. They see you as proof their content WORKS. Creators love featuring success stories.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">7</span><h3 class="text-lg font-bold">Twitter Thread Tag — Give THEM Credit</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Write thread about your results using their method</li><li>→ Mention plugin naturally in steps</li><li>→ End: "Shoutout @Creator whose tutorial helped"</li><li>→ They retweet = THEIR audience sees plugin</li></ul></div><div><p class="text-gray-500 text-sm">Public credit = guaranteed retweet. Their audience (thousands) sees your thread. Free exposure without asking.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">8</span><h3 class="text-lg font-bold">Testimonial Offer — Free Case Study for Them</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ "Got results — happy to share data as case study for your video"</li><li>→ Include before/after screenshots, GSC data</li><li>→ "No strings — just cool to be featured"</li></ul></div><div><p class="text-gray-500 text-sm">You're offering READY-MADE content. They get a case study without research. You did the work FOR them.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">9</span><h3 class="text-lg font-bold">Poll/Question — Start Discussion, Tag Creators</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Twitter poll: "A ($99/yr) vs B ($19 one-time)?"</li><li>→ Tag 3-5 creators: "What do you use?"</li><li>→ They vote + comment + potentially share</li></ul></div><div><p class="text-gray-500 text-sm">Polls are engaging. Creators love tool discussions. Not a pitch — a conversation that surfaces your plugin naturally.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">10</span><h3 class="text-lg font-bold">Broken Link Helper — Goodwill First, Suggest Second</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Find video with broken/outdated link in description</li><li>→ Email: "Quick heads up — link in your [video] seems broken"</li><li>→ "BTW I use [plugin] for same purpose — $19 alternative"</li></ul></div><div><p class="text-gray-500 text-sm">Helping first = instant goodwill. Now any suggestion carries trust. Reciprocity principle.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+
+        <!-- IDEAS 11-20 (Compact) -->
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">11</span><h3 class="text-lg font-bold">Group Discussion Starter</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ In FB/Slack/Discord groups start: "What do you use for [X]?"</li><li>→ "Testing [plugin] — getting [result]. Anyone else tried?"</li></ul></div><div><p class="text-gray-500 text-sm">Community discussion = social proof. Not promotion — GROUP discovery. Creators notice buzzing tools.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">12</span><h3 class="text-lg font-bold">Reply Guy Strategy — Be Everywhere</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Follow 30-50 target creators on Twitter</li><li>→ Reply helpfully 3-5x over 2 weeks</li><li>→ Naturally mention: "I fixed this with [plugin]"</li></ul></div><div><p class="text-gray-500 text-sm">Familiarity breeds trust. After seeing your name 5x, when you DM they already "know" you. 80%+ response.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">13</span><h3 class="text-lg font-bold">Audit THEIR Website — Make It Personal</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.9</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Visit their site — find problem your plugin fixes</li><li>→ "Noticed [problem] on your site — not being annoying lol"</li><li>→ "Fixed this on my site with [plugin] — 4 minutes"</li></ul></div><div><p class="text-gray-500 text-sm">When problem is on THEIR site = personal. They'll fix it with your plugin → realize it's great content → video.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">14</span><h3 class="text-lg font-bold">Duet/Stitch Reaction Video</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Find their video about problem your plugin solves</li><li>→ Stitch: "This takes 30 min. Here's how I do it in 30 sec"</li><li>→ Tag original creator — they might reshare</li></ul></div><div><p class="text-gray-500 text-sm">Adding to THEIR content. Collaboration energy. Their audience sees your version without you asking.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">15</span><h3 class="text-lg font-bold">Affiliate Seed — Show THEM the Money</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ "[Plugin] has 40% affiliate ($7.6/sale)"</li><li>→ "Your audience + this = easy affiliate income"</li><li>→ Show math: "10K views → 50 sales → $380 earned"</li></ul></div><div><p class="text-gray-500 text-sm">Not "help me" — showing "here's how YOU earn." Financial incentive = action.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">16</span><h3 class="text-lg font-bold">Quote Retweet Praise + Result</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Quote their post: "This advice + [plugin] = X to Y results"</li><li>→ Public praise = they retweet = their audience sees plugin</li></ul></div><div><p class="text-gray-500 text-sm">Ego boost + validation. Retweet guaranteed because it proves their advice works.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">17</span><h3 class="text-lg font-bold">Bundle Video Suggestion — "Ultimate Stack Under $100"</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Suggest full video concept with popular tools + YOUR plugin</li><li>→ "Best tools under $100" = proven high-performing topic</li></ul></div><div><p class="text-gray-500 text-sm">Not solo pitch — one of many items. Way more acceptable. Content curation, not promotion.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">18</span><h3 class="text-lg font-bold">Speed Challenge — "Can You Beat 5 Minutes?"</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ "Challenge: I did [X] in 4m 23s with [plugin]. Bet you can beat me"</li><li>→ Offer free license + "would make sick challenge video"</li></ul></div><div><p class="text-gray-500 text-sm">Challenge format = trending. Easy to film, entertaining. Algorithm loves challenges.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">19</span><h3 class="text-lg font-bold">Comparison Request — As Curious Subscriber</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ "Would love your honest opinion — how does [plugin] compare to [X]?"</li><li>→ "I trust your reviews more than anyone"</li></ul></div><div><p class="text-gray-500 text-sm">Flattery + consulting expertise. They feel like authority being asked. Natural progression → review video.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-12"><div class="border-2 border-green-300 rounded-xl p-6 bg-green-50 shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-700 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">20</span><h3 class="text-lg font-bold">Multi-Touch Warm-Up (14-Day Sequence)</h3></div><span class="text-green-700 text-sm font-bold">⭐ 9.9 🏆</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-700 text-sm space-y-1"><li>→ Day 1: YouTube comment | Day 3: Like tweet | Day 5: IG story reply</li><li>→ Day 7: Quote RT | Day 9: Another comment | Day 11: DM</li><li>→ By Day 11 they RECOGNIZE you = friend, not stranger</li></ul></div><div><p class="text-gray-600 text-sm font-medium">HIGHEST SUCCESS: 80-90% response. The ULTIMATE approach for high-value creators. Patient but guaranteed.</p></div></div></div></div>
     </section>
+
+
+    <!-- PHASE 2 -->
+    <section class="max-w-5xl mx-auto px-6 py-16 border-t-2 border-green-100">
+        <div class="border-l-4 border-green-500 pl-6 mb-12">
+            <h2 class="text-3xl font-black text-gray-900">PHASE 2: Day 1 Sales Tactics</h2>
+            <p class="text-gray-500 mt-1">Instant Traffic → Instant Sales — Execute on Day 1, sales within HOURS</p>
+        </div>
+
+        <div class="mb-6 flow-line"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">1</span><h3 class="text-lg font-bold">Reddit Launch Post</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.9</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ r/SideProject, r/WordPress, r/webdev, r/Entrepreneur</li><li>→ "I built a $19 plugin that does [X] — feedback welcome"</li><li>→ Story: Problem → Why built → Demo GIF</li><li>→ Ask for feedback (not sales) — sales come naturally</li></ul></div><div><p class="text-gray-500 text-sm">One Reddit post = 12 paid downloads on LAUNCH DAY (proven). Reddit = instant eyeballs = instant sales.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ Expected: 3-15 sales</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6 flow-line"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">2</span><h3 class="text-lg font-bold">Facebook Groups — Value Drop</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Join 10 active WP/SEO/Blogging groups</li><li>→ Post: "Quick tip: [result] using [plugin] — $19"</li><li>→ Offer to share steps in comments</li></ul></div><div><p class="text-gray-500 text-sm">FB groups = instant visibility to thousands. Comments within minutes. Sales within HOURS.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ Expected: 2-8 sales per group</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6 flow-line"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">3</span><h3 class="text-lg font-bold">Cold DM to People Complaining — NOW</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Twitter search: "[competitor] sucks/expensive/alternative"</li><li>→ Reply: "I switched to [plugin] — $19, no sub. Works great."</li><li>→ They're MID-PAIN = instant relief</li></ul></div><div><p class="text-gray-500 text-sm">Actively frustrated people don't need convincing. You ARE the alternative they're looking for.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ Expected: 1-3 sales per 20 replies</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6 flow-line"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">4</span><h3 class="text-lg font-bold">Hacker News — Show HN</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ "Show HN: [Plugin] — [one-line value prop]"</li><li>→ Front page = 5K-50K views in hours</li><li>→ Reply to every comment</li></ul></div><div><p class="text-gray-500 text-sm">HN = developers who BUY tools. One successful post can fund entire $1000 goal alone.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ Expected: 5-50 sales if front page</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6 flow-line"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">5</span><h3 class="text-lg font-bold">Product Hunt Launch</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Submit 12:01 AM PST | Get friends to upvote first 2 hours</li><li>→ Reply to every comment | #5+ daily = 2K-10K visitors</li></ul></div><div><p class="text-gray-500 text-sm">PH audience = buyers of digital tools. $19 = impulse buy for them.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ Expected: 10-40 sales on launch day</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6 flow-line"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">6</span><h3 class="text-lg font-bold">WhatsApp Broadcast — FASTEST Method</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.9</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Status: Before/after + "$19. DM if interested"</li><li>→ Broadcast 500+ contacts: "Just launched! Know anyone?"</li></ul></div><div><p class="text-gray-500 text-sm">LITERALLY fastest. 5 min effort. Warm audience. Sales within MINUTES.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ Expected: 5-15 sales within hours</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">7</span><h3 class="text-lg font-bold">LinkedIn Story Post</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ "I saved $476 over 5 years replacing ONE plugin"</li><li>→ Before/After cost + Results + Link</li></ul></div><div><p class="text-gray-500 text-sm">Even 500 connections = 1K-5K impressions. Professionals with spending power.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ Expected: 2-8 sales</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">8</span><h3 class="text-lg font-bold">Twitter Savings Thread — All 10 Plugins</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.9 🏆</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ "I save $1,247/yr on WP tools. Here's my stack 🧵"</li><li>→ Each tweet = 1 plugin vs competitor</li><li>→ ALL 10 promoted in ONE thread</li></ul></div><div><p class="text-gray-500 text-sm">"Save money" threads go VIRAL. One reader buys 2-3 plugins. One content piece, ALL products.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ BEST ROI: ALL 10 plugins in 1 thread</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">9</span><h3 class="text-lg font-bold">Reply to "What Plugin?" Tweets</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Search: "what WordPress plugin", "best plugin for", "recommend"</li><li>→ Reply: "I use [plugin] — $19, no sub. Working great."</li></ul></div><div><p class="text-gray-500 text-sm">They're ASKING = buying mode. Your reply = their purchase. Minutes.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ Expected: 1-2 sales per 10 replies</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">10</span><h3 class="text-lg font-bold">Deal Sites — AppSumo, DealFuel, Dealify</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Submit to deal platforms (100K-1M+ buyers)</li><li>→ They send emails + push notifs to THEIR audience</li><li>→ You just submit — THEY do the marketing</li></ul></div><div><p class="text-gray-500 text-sm">Deal hunters BUY $19-49 tools daily. Their audience = your revenue.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ Expected: 50-200 sales per launch</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">11</span><h3 class="text-lg font-bold">IndieHackers Launch Post</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ "Launched 10 WP plugins — $1000 in 7 days challenge"</li><li>→ IH community supports fellow builders = they BUY</li></ul></div><div><p class="text-gray-500 text-sm">Journey posts get massive engagement. Multiple founders got first sales from IH.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">12</span><h3 class="text-lg font-bold">Telegram/Discord Deal Channels</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Join "WordPress Deals", "Lifetime SaaS Deals" groups</li><li>→ Post: "$19 one-time — [Plugin] — lifetime license"</li></ul></div><div><p class="text-gray-500 text-sm">Members are there TO BUY. Post = sales in hours.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">13</span><h3 class="text-lg font-bold">Fiverr/Upwork — Sell Service + Plugin</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Gig: "I'll translate your WP site into 5 languages — $50"</li><li>→ Use YOUR plugin (5 min work) → Deliver</li><li>→ "BTW plugin is $19 if you want DIY next time"</li><li>→ Triple income: Service + plugin sale + referrals</li></ul></div><div><p class="text-gray-500 text-sm">People looking for this service RIGHT NOW. $50 for 5 min work + sell plugin.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ Expected: $50-150/day service + plugin sales</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">14</span><h3 class="text-lg font-bold">YouTube Community Tab Comments</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Comment on "what tools?" or "recommendations?" posts</li><li>→ "Been using [plugin] — $19, no sub. Impressed."</li></ul></div><div><p class="text-gray-500 text-sm">Active engaged audience. Your comment visible to thousands. Immediate traffic.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">15</span><h3 class="text-lg font-bold">Email Warm List — FIRST Sales Guaranteed</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.9</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Email everyone you know with a website</li><li>→ "Launched a plugin — $19. Thought of you since you have [site]"</li><li>→ Warm leads = 5-10x better conversion</li></ul></div><div><p class="text-gray-500 text-sm">First 5-10 sales ALWAYS from people who know you. Day 1, Hour 1. Guaranteed.</p><div class="mt-2 bg-green-50 border border-green-200 rounded px-3 py-1.5"><span class="text-green-700 text-xs font-bold">⚡ FASTEST: First $50-100 comes from here</span></div></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">16</span><h3 class="text-lg font-bold">Micro-Launch — "First 20 Only" Scarcity</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.9</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ "$19 (normally $39). First 20 get launch price."</li><li>→ "After 20 → $39 permanently. RT 🙏"</li></ul></div><div><p class="text-gray-500 text-sm">Scarcity + urgency + sharing = people buy NOW. No "later."</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">17</span><h3 class="text-lg font-bold">Short-Form Video — 30 Sec Demo</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ Screen record: Problem(3s) → Plugin(20s) → Result(7s)</li><li>→ Post same video: TikTok + Reels + Shorts</li><li>→ Algorithm pushes — 0 followers needed</li></ul></div><div><p class="text-gray-500 text-sm">One viral video = 100K views. Visual demo = instant understanding. 3x more conversions than text.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">18</span><h3 class="text-lg font-bold">CodeCanyon Marketplace</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ List on CodeCanyon (7M+ members)</li><li>→ They handle traffic — millions browse for WP plugins</li></ul></div><div><p class="text-gray-500 text-sm">Like listing on Amazon. Passive sales from existing marketplace audience.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-6"><div class="border border-green-200 rounded-xl p-6 bg-white shadow-sm"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-600 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">19</span><h3 class="text-lg font-bold">Gumroad + Whop Bundle</h3></div><span class="text-green-600 text-sm font-bold">⭐ 9.8</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-600 text-sm space-y-1"><li>→ List all plugins + "10 Plugin Bundle — $49 (worth $190)"</li><li>→ Built-in discovery after first sale</li></ul></div><div><p class="text-gray-500 text-sm">Bundle = irresistible value. Impulse buyers find you through platform.</p></div></div></div></div>
+        <div class="flex justify-center mb-6"><div class="arrow-down"></div></div>
+
+        <div class="mb-12"><div class="border-2 border-green-300 rounded-xl p-6 bg-green-50"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-3"><span class="bg-green-700 text-white text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">20</span><h3 class="text-lg font-bold">48-Hour Flash Sale EVERYWHERE 🔥</h3></div><span class="text-green-700 text-sm font-bold">⭐ 9.9 🏆</span></div><div class="grid md:grid-cols-2 gap-4"><div><ul class="text-gray-700 text-sm space-y-1"><li>→ "All 10 Plugins — $49 (worth $190) — 48 HOURS ONLY"</li><li>→ Countdown timer | Post EVERYWHERE simultaneously</li><li>→ After 48h → $99. FOMO = instant action</li></ul></div><div><p class="text-gray-600 text-sm font-medium">🔥 NUCLEAR OPTION: This ALONE can generate $500-2000 in 48 hours. Urgency is #1 Day 1 driver.</p></div></div></div></div>
+    </section>
+
+
+    <!-- TIMELINE -->
+    <section class="max-w-5xl mx-auto px-6 py-16 border-t-2 border-green-100">
+        <div class="border-l-4 border-green-500 pl-6 mb-12">
+            <h2 class="text-3xl font-black text-gray-900">📅 7-Day Execution Timeline</h2>
+            <p class="text-gray-500 mt-1">Hour-by-hour Day 1 + Daily plan for Day 2-7</p>
+        </div>
+
+        <div class="border-2 border-green-200 rounded-2xl p-8 bg-green-50/30 mb-8">
+            <h3 class="text-xl font-bold text-green-700 mb-6">🔥 DAY 1 — Launch Day</h3>
+            <div class="space-y-3">
+                <div class="flex items-center gap-4 bg-white rounded-lg p-4 border border-green-100">
+                    <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">Hour 0-1</span>
+                    <span class="text-gray-700 flex-1">WhatsApp broadcast to 500+ contacts</span>
+                    <span class="text-green-600 font-bold text-sm">→ 3-8 sales</span>
+                </div>
+                <div class="flex items-center gap-4 bg-white rounded-lg p-4 border border-green-100">
+                    <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">Hour 1-2</span>
+                    <span class="text-gray-700 flex-1">Email warm list (50-100 people)</span>
+                    <span class="text-green-600 font-bold text-sm">→ 2-5 sales</span>
+                </div>
+                <div class="flex items-center gap-4 bg-white rounded-lg p-4 border border-green-100">
+                    <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">Hour 2-3</span>
+                    <span class="text-gray-700 flex-1">LinkedIn post + Twitter savings thread</span>
+                    <span class="text-green-600 font-bold text-sm">→ 3-8 sales</span>
+                </div>
+                <div class="flex items-center gap-4 bg-white rounded-lg p-4 border border-green-100">
+                    <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">Hour 3-5</span>
+                    <span class="text-gray-700 flex-1">Reddit posts (r/SideProject + r/WordPress)</span>
+                    <span class="text-green-600 font-bold text-sm">→ 3-15 sales</span>
+                </div>
+                <div class="flex items-center gap-4 bg-white rounded-lg p-4 border border-green-100">
+                    <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">Hour 5-8</span>
+                    <span class="text-gray-700 flex-1">Facebook groups + Hacker News</span>
+                    <span class="text-green-600 font-bold text-sm">→ 5-25 sales</span>
+                </div>
+            </div>
+            <div class="mt-6 text-center bg-green-100 border-2 border-green-300 rounded-xl p-4">
+                <span class="text-green-800 font-black text-lg">DAY 1 TOTAL: 16-61 sales = $304 - $1,159</span>
+            </div>
+        </div>
+
+        <div class="border-2 border-green-200 rounded-2xl p-8 bg-green-50/30">
+            <h3 class="text-xl font-bold text-green-700 mb-6">📈 DAY 2-7</h3>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="bg-white rounded-lg p-4 border border-green-100"><span class="font-bold text-green-700">Day 2:</span> Product Hunt + IndieHackers launch</div>
+                <div class="bg-white rounded-lg p-4 border border-green-100"><span class="font-bold text-green-700">Day 3:</span> Deal sites + Telegram/Discord channels</div>
+                <div class="bg-white rounded-lg p-4 border border-green-100"><span class="font-bold text-green-700">Day 4:</span> Creator outreach begins (Phase 1)</div>
+                <div class="bg-white rounded-lg p-4 border border-green-100"><span class="font-bold text-green-700">Day 5:</span> Short-form videos + 48hr flash sale</div>
+                <div class="bg-white rounded-lg p-4 border border-green-100"><span class="font-bold text-green-700">Day 6:</span> Follow up all leads + more outreach</div>
+                <div class="bg-white rounded-lg p-4 border border-green-100"><span class="font-bold text-green-700">Day 7:</span> FINAL PUSH — urgency + close deals</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-16 px-6 border-t-2 border-green-100">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-3xl font-black text-gray-900 mb-4">🎯 Mission: $1000 in 7 Days</h2>
+            <p class="text-lg text-gray-500 mb-6">40 Proven Tactics • 10 Plugins • One Goal</p>
+            <div class="flex justify-center gap-6 mb-8">
+                <div class="text-center"><div class="text-2xl font-black text-green-600">$19</div><div class="text-xs text-gray-400">Per Plugin</div></div>
+                <div class="text-center"><div class="text-2xl font-black text-green-600">53</div><div class="text-xs text-gray-400">Sales Needed</div></div>
+                <div class="text-center"><div class="text-2xl font-black text-green-600">40</div><div class="text-xs text-gray-400">Tactics</div></div>
+            </div>
+            <p class="text-green-700 font-bold text-lg">
+                Execute 10 tactics seriously → 53+ sales = $1000+ ACHIEVED ✅
+            </p>
+            <p class="text-gray-400 text-sm mt-8">Built by DevsArun — May 2026</p>
+        </div>
+    </footer>
 
 </body>
 </html>
